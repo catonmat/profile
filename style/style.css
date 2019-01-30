@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+}
+
+a, a:visited{
+  color: black;
+}
+
+@media (max-width: 1500px) {
+    .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+}
+
+@media (max-width: 960px) {
+    .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.card-profile {
+  width: auto;
+  align-self: center;
+  padding-top: 75px;
+}
+
+.card-social-links {
+  align-self: center;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-social-links p {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.card-social-links i {
+/*  display: block-inline;*/
+  margin: auto;
+  font-size: 18px;
+}
+
+.card-tetra-animation {
+  display: grid;
+  align-self: center;
+}
+
+.card-tetra-animation p {
+  font-size: 10px;
+}
